@@ -17,14 +17,15 @@
             <field name="default_location_dest_id" ref="stock.stock_location_customers"/>
         </record>
 
-        <!-- Drop Shipping-->
+        <!-- Drop Shipping From Sale-->
         <record id="route_drop_shipping" model='stock.location.route'>
             <field name="name">Dropship From Sale Order</field>
-            <field name="sequence">5</field>
+            <field name="sequence">2</field>
             <field name="company_id"></field>
             <field name="sale_selectable" eval="True"/>
             <field name="product_selectable" eval="True"/>
             <field name="product_categ_selectable" eval="True"/>
+            <field name="direct_sale" eval="True"/>
         </record>
 
         <record id="stock_rule_drop_shipping" model="stock.rule">
