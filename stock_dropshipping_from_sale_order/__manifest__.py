@@ -11,13 +11,15 @@
     'website': 'www.escodoo.com.br',
     'depends': [
         'sale',
+        'sale_direct_sale',
         'stock',
         'stock_picking_sale_order_link',
     ],
     'data': [
         'views/stock_location_route.xml',
+        'views/sale_order.xml',
         'data/stock_data.xml',
-    ],
+    ],''
     'demo': [
     ],
 }
