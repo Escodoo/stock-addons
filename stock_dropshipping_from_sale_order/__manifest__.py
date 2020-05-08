@@ -15,6 +15,7 @@
         'stock_picking_sale_order_link',
     ],
     'data': [
+        'views/stock_location_route.xml',
         'data/stock_data.xml',
     ],
     'demo': [
