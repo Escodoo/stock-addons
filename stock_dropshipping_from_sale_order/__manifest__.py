@@ -11,7 +11,6 @@
     'website': 'www.escodoo.com.br',
     'depends': [
         'sale',
-        'sale_direct_sale',
         'stock',
         'stock_picking_sale_order_link',
     ],
