@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_dropshipping_from_sale_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 01:35+0000\n"
+"PO-Revision-Date: 2020-06-02 22:45-0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: Marcel Savegnago <marcel.savegnago@gmail.com>\n"
+"Language: pt_BR\n"
+
+#. module: stock_dropshipping_from_sale_order
+#: model_terms:ir.ui.view,arch_db:stock_dropshipping_from_sale_order.stock_location_route_form_view
+msgid "Additional Information"
+msgstr "Informação Adicional"
+
+#. module: stock_dropshipping_from_sale_order
+#: model:ir.model.fields,field_description:stock_dropshipping_from_sale_order.field_sale_order_line__directsale
+#: model:ir.model.fields,field_description:stock_dropshipping_from_sale_order.field_stock_location_route__directsale
+msgid "Direct Sale"
+msgstr "Venda Direta"
+
+#. module: stock_dropshipping_from_sale_order
+#: model:stock.location.route,name:stock_dropshipping_from_sale_order.route_drop_shipping
+#: model:stock.picking.type,name:stock_dropshipping_from_sale_order.picking_type_dropship_from_sale_order
+msgid "Dropship From Sale Order"
+msgstr "Dropship via Pedido de Venda"
+
+#. module: stock_dropshipping_from_sale_order
+#: model:ir.model,name:stock_dropshipping_from_sale_order.model_stock_location_route
+msgid "Inventory Routes"
+msgstr "Rotas do Inventário"
+
+#. module: stock_dropshipping_from_sale_order
+#: model:ir.model,name:stock_dropshipping_from_sale_order.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Linha do Pedido de Venda"
+
+#. module: stock_dropshipping_from_sale_order
+#: model:stock.rule,name:stock_dropshipping_from_sale_order.stock_rule_drop_shipping
+msgid "Vendor → Customer (Dropshipping From Sale Order)"
+msgstr "Fornecedor → Cliente (Dropshipping via Pedido de Venda)"
