@@ -8,7 +8,7 @@ class StockLocationRoute(models.Model):
 
     _inherit = 'stock.location.route'
 
-    direct_sale = fields.Boolean(
+    directsale = fields.Boolean(
         string='Direct Sale',
         default=False
     )
