@@ -25,7 +25,7 @@
             <field name="sale_selectable" eval="True"/>
             <field name="product_selectable" eval="True"/>
             <field name="product_categ_selectable" eval="True"/>
-            <field name="direct_sale" eval="True"/>
+            <field name="directsale" eval="True"/>
         </record>
 
         <record id="stock_rule_drop_shipping" model="stock.rule">

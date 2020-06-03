@@ -11,7 +11,7 @@
         <field name="arch" type="xml">
             <field name="company_id" position="after">
                 <group string="Additional Information">
-                     <field name="direct_sale"/>
+                     <field name="directsale"/>
                 </group>
             </field>
         </field>
