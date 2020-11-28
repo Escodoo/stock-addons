@@ -13,12 +13,12 @@ class ProductCategory(models.Model):
     @api.onchange("abc_classification_profile_id")
     def _onchange_abc_classification_profile_id(self):
         for categ in self:
-            for child in categ._origin.child_id:
+            for child in categ.child_id:
                 child.abc_classification_profile_id = (
                     categ.abc_classification_profile_id
                 )
                 child._onchange_abc_classification_profile_id()
-            for variant in categ._origin.product_variant_ids.filtered(
+            for variant in categ.product_variant_ids.filtered(
                 lambda p: p.type == "product"
             ):
                 variant.abc_classification_profile_id = (
