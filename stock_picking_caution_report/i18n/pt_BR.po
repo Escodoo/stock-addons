@@ -1,0 +1,265 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_caution_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 13:15+0000\n"
+"PO-Revision-Date: 2026-04-29 13:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_picking_caution_report
+#: model:ir.actions.report,print_report_name:stock_picking_caution_report.action_caution_report
+msgid "'Caution - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'Cautela - %s - %s' % (object.partner_id.name or '', object.name)"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+msgid ""
+"<br/>\n"
+"                                            (Lote/Série:"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid ""
+"<span>\n"
+"                                _______________________________________________________________________________\n"
+"                            </span>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid ""
+"<span>\"Disclaimer\"</span>\n"
+"                            <br/>"
+msgstr ""
+"<span>\"Termo de Responsabilidade\"</span>\n"
+"                            <br/>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Code</span>"
+msgstr "<span>Código</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Collaborator Code:</span>"
+msgstr "<span>Código Colaborador</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid ""
+"<span>Customer or Requester:</span>\n"
+"                                        <span/>"
+msgstr ""
+"<span>Cliente ou Solicitante:</span>\n"
+"                                        <span/>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+msgid ""
+"<span>Customer or Requester</span>\n"
+"                                        <span/>"
+msgstr ""
+"<span>Cliente ou Solicitante</span>\n"
+"                                        <span/>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Description</span>"
+msgstr "<span>Descrição</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Output Data:</span>"
+msgstr "<span>Dados de Saída:</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Price</span>"
+msgstr "<span>Preço</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Quant.</span>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Total</span>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<span>Unit</span>"
+msgstr "<span>Unid</span>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+msgid ""
+"<span>_______________________________________________________________________________</span>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<strong>, </strong>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid ""
+"<strong>EXIT GUIDE</strong>\n"
+"                        <br/>"
+msgstr ""
+"<strong>GUIA DE SAÍDA</strong>\n"
+"                        <br/>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid ""
+"<strong>Outgoing Items</strong>\n"
+"                        <br/>"
+msgstr ""
+"<strong>Itens de Saída</strong>\n"
+"                        <br/>"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model:ir.actions.report,name:stock_picking_caution_report.action_caution_report
+msgid "Caution Report"
+msgstr "Relatório de Cautela"
+
+#. module: stock_picking_caution_report
+#: model:ir.model.fields,field_description:stock_picking_caution_report.field_res_company__caution_report_disclaimer
+#: model:ir.model.fields,field_description:stock_picking_caution_report.field_res_config_settings__caution_report_disclaimer
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.res_config_settings_view_form
+msgid "Caution Report Disclaimer"
+msgstr "Termo de Responsabilidade da Cautela"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Caution Status:"
+msgstr "Status Cautela:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Collaborator:"
+msgstr "Colaborador:"
+
+#. module: stock_picking_caution_report
+#: model:ir.model,name:stock_picking_caution_report.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: stock_picking_caution_report
+#: model:ir.model,name:stock_picking_caution_report.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configurações"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Date:"
+msgstr "Data:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Departament:"
+msgstr "Departamento:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Function / Job:"
+msgstr "Função / Cargo:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.res_config_settings_view_form
+msgid "Insert the company default Caution Report Disclaimer."
+msgstr "Insira o Termo de Responsabilidade da Cautela padrão da empresa."
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Local:"
+msgstr ""
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Nº Caution:"
+msgstr "Nº Cautela:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Nº Contract:"
+msgstr "Nº Contrato:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Observations"
+msgstr "Observações"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Purpose of Caution:"
+msgstr "Finalidade da Cautela:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Release:"
+msgstr "Liberação:"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Requester:"
+msgstr "Solicitante:"
+
+#. module: stock_picking_caution_report
+#: model:ir.model.fields,field_description:stock_picking_caution_report.field_stock_picking__employee_id
+msgid "Responsible for Caution"
+msgstr "Responsável Cautela"
+
+#. module: stock_picking_caution_report
+#: model:ir.model,name:stock_picking_caution_report.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: stock_picking_caution_report
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock
+#: model_terms:ir.ui.view,arch_db:stock_picking_caution_report.caution_report_stock_equipament_personal
+msgid "Transporter:"
+msgstr "Transportador:"
